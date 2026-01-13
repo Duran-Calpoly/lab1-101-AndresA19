@@ -20,7 +20,7 @@ class TestLab1_5(unittest.TestCase):
     # 2. Tests for check_password
     def test_password_correct(self):
         """Test the correct secret word."""
-        self.assertEqual(check_password("Python123"), "access granted")
+        self.assertEqual(check_password("CSC101Password"), "access granted")
 
     def test_password_incorrect(self):
         """Test an incorrect password."""
